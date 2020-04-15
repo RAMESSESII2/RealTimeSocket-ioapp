@@ -9529,6 +9529,9 @@ var socket = _socket.default.connect(API_URL);
 socket.on("connect", function () {
   console.log("Connected to the socket server");
 });
+socket.on("message-client-connected", function (message) {
+  console.log(message);
+});
 },{"socket.io-client":"node_modules/socket.io-client/lib/index.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -9557,7 +9560,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51925" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54010" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

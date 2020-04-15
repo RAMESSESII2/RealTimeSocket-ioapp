@@ -10,3 +10,6 @@ socket.on("connect", ()=>{
     console.log("Connected to the socket server");
 });
 
+socket.on("message-client-connected",(message)=>{
+    console.log(message);
+})
