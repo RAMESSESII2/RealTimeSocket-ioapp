@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/styles.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"styles.dd855970.css","sourceRoot":"..","sourcesContent":["body{\r\n    margin: 0;\r\n    width: 100vw;\r\n    height: 100vh;\r\n    background: black;\r\n    cursor: none;\r\n}\r\nspan{\r\n    font-size: 2em;\r\n}"]}
