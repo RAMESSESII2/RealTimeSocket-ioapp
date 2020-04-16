@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAAA,KACI,QAAS,CACT,WAAY,CACZ,YAAa,CACb,eAAiB,CACjB,WACJ,CACA,KACI,aACJ","file":"styles.13fd9af3.css","sourceRoot":"..","sourcesContent":["body{\r\n    margin: 0;\r\n    width: 100vw;\r\n    height: 100vh;\r\n    background: black;\r\n    cursor: none;\r\n}\r\nspan{\r\n    font-size: 2em;\r\n}"]}
